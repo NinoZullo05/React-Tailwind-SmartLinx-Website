@@ -32,7 +32,7 @@ export default function Video() {
                     <div className="rounded-lg m-auto w-full h-72 sm:w-2/3 md:w-1/2 lg:w-1/2 bg-gray-300 dark:bg-gray-700 animate-pulse"></div>
                 )}
                 <iframe
-                    src="https://drive.google.com/file/d/1H-Vn528IyPkFmQ2VyvTRhJt44sczlv6A/view"
+                    src="https://drive.google.com/file/d/1H-Vn528IyPkFmQ2VyvTRhJt44sczlv6A/preview"
                     allow="autoplay"
                     allowFullScreen
                     className={`rounded-lg m-auto w-full h-auto sm:w-2/3 md:w-1/2 lg:w-1/2 ${loading ? 'hidden' : ''}`}
